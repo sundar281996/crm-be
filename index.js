@@ -5,7 +5,8 @@ import {userRouter} from "./newFile.js";
 import dotenv from "dotenv";
 import cors from "cors";
 
-const app = express()
+const app = express();
+const PORT=process.env.PORT;
 
 app.use(cors());
 
