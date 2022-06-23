@@ -15,9 +15,9 @@ app.use(express.json())
 dotenv.config()
 
 
-app.get('/',(request,response)=>{
-    response.send({msg:'Password'})
-});
+// app.get('/',(request,response)=>{
+//     response.send({msg:'Password'})
+// });
 
 
 
